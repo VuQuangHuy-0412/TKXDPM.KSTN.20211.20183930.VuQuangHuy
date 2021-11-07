@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TitledPane animated="false" text="Delivery form">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="768.0" prefWidth="1366.0">
+               <children>
+                  <ImageView fitHeight="84.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="C:\Users\quyen\OneDrive\Pictures\Aims logo.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="83.0" layoutY="4.0" text="Delivery form" textFill="#3597e6">
+                     <font>
+                        <Font name="System Bold Italic" size="48.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutY="79.0" prefHeight="3.0" prefWidth="1366.0" />
+                  <PasswordField layoutX="206.0" layoutY="111.0" prefHeight="47.0" prefWidth="963.0" />
+                  <Label layoutX="48.0" layoutY="117.0" prefHeight="35.0" prefWidth="81.0" text="Name">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="48.0" layoutY="208.0" prefHeight="35.0" prefWidth="81.0" text="Phone">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <PasswordField layoutX="206.0" layoutY="202.0" prefHeight="47.0" prefWidth="963.0" />
+                  <Label layoutX="48.0" layoutY="408.0" prefHeight="35.0" prefWidth="122.0" text="Address">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="42.0" layoutY="303.0" prefHeight="35.0" prefWidth="174.0" text="City/Province">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <ComboBox layoutX="257.0" layoutY="298.0" prefHeight="46.0" prefWidth="318.0" />
+                  <PasswordField layoutX="206.0" layoutY="408.0" prefHeight="109.0" prefWidth="963.0" />
+                  <Label layoutX="48.0" layoutY="561.0" prefHeight="97.0" prefWidth="151.0" text="Shipping Instructions" wrapText="true">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <PasswordField layoutX="206.0" layoutY="555.0" prefHeight="109.0" prefWidth="963.0" />
+               </children>
+            </AnchorPane>
+         </content>
+      </TitledPane>
+   </children>
+</VBox>
